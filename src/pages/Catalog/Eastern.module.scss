@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:cursive ;
+}
+
+header {
+    margin-top: 20px;
+}
+
+nav {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.navCategory {
+    display: flex;
+    width: Fixed (186px);
+    height: Fixed (36px);
+    padding: 8px 20px;
+    border-radius: 57px;
+    border: 2px solid #000;
+    gap: 40px;
+}
+
+.nav_img {
+    cursor: pointer;
+}
+
+.nav_itemStart {
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    padding: 7px 7vh;
+    border-radius: 59px;
+    gap: 10px;
+}
+
+.itemStart {
+    cursor: pointer;
+    color: white;
+}
+
+.container_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .block_1 {
+        display: block;
+        margin: 0 0px 0 10vh;
+
+        .tittle {
+            font-size: 52px;
+            font-weight: 400;
+            line-height: 59px;
+        }
+
+        .info {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .bfm {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 8vh;
+
+
+            .button {
+                cursor: pointer;
+                padding: 1vh 29vh ;
+                border: 1px;
+                border-radius: 59px;
+                background-color: #FFB84E;
+            }
+        }
+
+        .korzina {
+            cursor: pointer;
+            display: flex;
+            align-items: center; 
+            justify-content: space-between; 
+            padding: 10px;
+            border: 1px ;
+            background-color: #C1C1C1;
+            border-radius: 59px;
+            width: 489px; 
+            margin-top: 1vh;
+
+            .buttonText {
+                flex: 1; 
+                text-align: center;
+            }
+
+            .buttonIcon {
+                margin-left: 10px; 
+                // width: 20px;
+            }
+        }
+    }
+
+    .soup {
+        // width: 700px;
+        height: auto;
+        // margin-bottom: 20vh;
+    }
+}
+
+.schedule {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    margin-top: 7vh;
+}
+
+
+.container_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .block_3 {
+        align-items: center;
+        margin: 50px;
+
+
+        .tittle_2 {
+            font-family: Raleway;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 2vh;
+        }
+    
+        .info_2 {
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 29px;
+        }
+    
+        li{
+            list-style: disc;
+        } 
+
+        .tittle_3 {
+            font-family: Raleway;
+            font-size: 32px;
+            font-weight: 600;
+            margin: 5vh 0 5vh 0;
+        }
+    
+    }
+
+    .lamp {
+        // width: 500px;
+    }
+
+}
+
+@media  (max-width: 768px) {
+    nav {
+        gap: 7vh;
+    }
+    
+    .container_1  {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            margin-top: 20vh;
+            flex-direction: column;
+    
+            .soup {
+                margin-top: 4vh;
+                width: 100%;
+            }
+    
+            .block_1 {
+    
+                .korzina {
+                    width: auto;
+                }
+    
+    
+            .bfm {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin-top: 8vh;
+    
+    
+                .button {
+                    cursor: pointer;
+                    padding: 1vh 10vh ;
+                    border: 1px;
+                    border-radius: 59px;
+                    background-color: #FFB84E;
+                }
+            }
+        }
+    
+    
+    }
+    
+    .container_2 {
+    
+        .lamp {
+            display: none;
+        }
+    }
+    
+    }

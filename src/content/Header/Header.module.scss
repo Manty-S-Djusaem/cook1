@@ -1,0 +1,23 @@
+.navigation-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .nav-cat-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 100;
+  }
+  
+  .nav-cat {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  /* Добавьте стили по своему усмотрению */
+  
